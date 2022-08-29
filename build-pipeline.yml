@@ -49,3 +49,5 @@ jobs:
           FIRST_NAME: Sol
           MIDDLE_NAME: Strå
           LAST_NAME: La
+      - name: "Secret"
+        run: echo "${{secrets.PASSWORD}}"
