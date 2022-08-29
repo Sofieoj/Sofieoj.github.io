@@ -43,3 +43,9 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
+      - name: "Hello world when it's Monday"
+        run: echo "Hello $FIRST_NAME $MIDDLE_NAME $LAST_NAME, today is Monday!"
+        env:
+          FIRST_NAME: Sol
+          MIDDLE_NAME: Strå
+          LAST_NAME: La
